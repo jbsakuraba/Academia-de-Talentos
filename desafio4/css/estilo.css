@@ -1,0 +1,116 @@
+header {
+	background: #fdfc30;
+	text-align: center;
+	color: #455eff;
+	font-size: 40px;
+	font-family: sans-serif;		
+	padding: 20px;
+   	margin-bottom: 20px;	
+}
+
+body {
+	background-color: #e8e8f1;
+}
+
+.CPF, .dados {
+	width: 650px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	font-size: 22px;
+	font-family: sans-serif;
+	color: #455eff;
+}
+
+.dados {
+	font-size: 20px;
+}
+
+.perfis, .descricao {
+	width: 650px;
+  	margin: auto;
+  	padding: 8px;    
+  	background-color: #d1d1e2;
+  	box-shadow: 3px 3px 10px #d1d1e2;
+	border: 1px solid #455eff;
+	border-radius: 5px;
+	display: flex;
+}
+
+.botao, #inputCPF {
+	background: #fdfc30;
+	border: 1px solid #455eff;
+  	border-radius: 5px;
+	color: #455eff;	
+	margin: 10px auto;
+	font-size: 22px;
+	font-family: sans-serif;
+	padding: 12px;
+}
+
+#inputCPF {
+	padding: 5px;
+	font-size: 18px;
+	outline: 0;
+}
+
+#buscar {
+	background: #455eff;
+	color: #fdfc30;
+	font-size: 18px;
+	font-family: sans-serif;
+	padding: 5px;
+	border: 1px solid #455eff;
+	border-radius: 5px;
+	outline: 0;
+}
+
+.opcoes {
+	margin: 20px;
+	text-align: center;	
+}
+
+.opc, .descricao {				
+	padding: 8px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #455eff;
+}
+
+.botao:active {
+	background-color: #455eff;
+	color: #fdfc30;
+}
+
+#inputCPF:focus,
+.botao:focus,
+#buscar:focus {
+	border: 4px solid #455eff;
+}
+
+.opc:hover {
+  	display: inline;
+	font-weight: bold;
+	font-size: 120%;
+  	color: #fdfc30;
+	background: #455eff;
+  	padding: 6px;
+	border: 1px solid #455eff;
+  	border-radius: 5px;
+}
+
+#erro {
+	color: red;
+}
+
+.apaga {
+	display: none;
+}
+
+#perfilSelecionado {
+	font-size: 24px;
+	border: 4px solid #455eff;
+}
+
+
+

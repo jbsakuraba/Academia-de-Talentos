@@ -1,0 +1,76 @@
+header {
+	background: #191970;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-family: sans-serif;		
+	padding: 20px;
+    margin-bottom: 20px;	
+}
+
+.formulario, .alerta, .tabela {
+    width: 450px;
+    margin: auto;
+    padding: 8px;    
+    background-color: #bfbfcf;
+    box-shadow: 3px 3px 10px #929294;
+}
+
+.nomedados {
+    display:inline-block;    
+    margin: 10px;
+}
+
+.formdados {
+    font-size: 15px;
+}
+
+#incluir {    
+    background-color: #191970;
+    color: white;
+    padding: 8px;   
+}
+
+.nomedados, .tabela, .alerta, .totalrenda {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.tabela {    
+    width: 700px;
+    text-align: center;    
+}
+
+td, #incluir, .formulario, .alerta {
+    border: 1px solid #929294;
+    border-radius: 5px;
+}
+
+th {
+    background-color: #191970;
+    color: white;
+    padding: 8px;        
+}
+
+td {
+    font-size: 15px;
+    padding: 3px;
+}
+.totalrenda {
+    font-weight: bold;
+}
+
+.alerta {
+    font-size: 15px;
+    color: red;
+}
+
+.menorSalario {
+    background-color: lightcoral;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+

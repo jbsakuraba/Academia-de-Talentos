@@ -1,0 +1,106 @@
+header {
+	background: #fdfc30;
+	text-align: center;	
+	font-size: 40px;			
+	padding: 20px;
+   	margin-bottom: 20px;	
+}
+
+body {
+	background-color: #e8e8f1;
+	font-family: sans-serif;
+	color: #455eff;
+}
+
+#msgEnter {
+	width: 750px;
+	margin: auto;
+	font-size: 14px;
+}
+
+.campoCPFNome {
+	width: 750px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+#inputCPF {
+	background: #fdfc30;
+	border: 1px solid #455eff;
+  	border-radius: 5px;		
+	margin: 10px auto;
+	font-size: 18px;
+	color:#455eff;
+	padding: 5px;
+    outline: 0;
+}
+
+.dadoCliente {
+    font-size: 20px;
+}
+
+.tabelaCliente {
+	margin: 10px;	
+}
+
+#solicitar {
+	background: #455eff;
+	color: #fdfc30;
+	font-size: 16px;
+	padding: 5px;
+	border: 1px solid #455eff;
+	border-radius: 5px;
+	outline: 0;	
+}
+
+#erroCPF, #erroHora {
+	text-align: center;
+	font-size: 20px;
+	color: red;
+	margin: 10px;
+}
+
+.seleciona, .msg {
+	width: 750px;
+  	margin: 10px auto;
+  	padding: 8px;
+	font-size: 18px;
+	text-align: center;
+  	background-color: #d1d1e2;
+  	box-shadow: 3px 3px 10px #d1d1e2;
+	border: 1px solid #455eff;
+	border-radius: 5px;	
+}
+
+.msg {
+	background-color: #fdfc30;
+	font-size: 22px;
+}
+
+#servico, #setor {
+	margin-right: 30px;
+	font-size: 18px;
+	color:#455eff;
+	background-color: #e8e8f1;
+	border: 1px solid #455eff;
+	border-radius: 5px;
+	outline: 0;
+}
+
+#inputCPF:focus, 
+#servico:focus, 
+#setor:focus, 
+#solicitar:focus {
+	border: 3px solid #455eff;
+}
+
+span {
+    font-weight: bold;
+}
+
+.apaga {
+	display: none;
+}
+
+

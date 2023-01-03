@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de clientes</h1>
+    </header>
+    
+    <form class="formulario">
+        <div>
+            <label for="CPF" class="nomedados">CPF</label>
+            <input type="text" id="cpf" class="formdados" maxlength="14" required>
+            <p id="erroCPF" class="msgerro"></p>
+        </div>
+        <div>
+            <label for="Nome do Cliente" class="nomedados">Nome do Cliente</label> 
+            <input type="text" id="nome" class="formdados" required>
+            <p id="erroNome" class="msgerro"></p>
+        </div>
+        <div>
+            <label for="Data de Nascimento" class="nomedados">Data de Nascimento</label>
+            <input type="text" id="nasc" class="formdados" maxlength="10" required>
+            <p id="erroNasc" class="msgerro"></p>
+        </div> 
+        <div>
+            <label for="Renda" class="nomedados">Renda</label>
+            <input type="text" id="renda" class="formdados" required>
+            <input type="button" value="INCLUIR DADOS" id="incluir">
+            <p id="erroRenda" class="msgerro"></p>                        
+        </div>
+    </form>
+
+    <div class="alerta"></div>
+
+    <table class="tabela">
+        <thead>
+            <th></th>
+            <th>CPF</th>
+            <th>Nome do Cliente</th>
+            <th>Data Nasc</th>
+            <th>Idade</th>
+            <th>Renda</th>
+            <th>Justificativa</th>
+        </thead>
+        <tbody id="tabelaBody"></tbody>       
+        <tfoot>            
+			<td colspan="5" align="right" class="totalrenda">Total</td>						
+			<td id="totalrenda" class="totalrenda">0,00</td> 
+            <td></td>           
+        </tfoot>        
+    </table>
+
+    <script src="js/principal.js"></script>
+    <script src="js/mascaras.js"></script>
+    <script src="js/preencherTabela.js"></script>
+    <script src="js/adicionarNovoCliente.js"></script>
+    <script src="js/validarInputs.js"></script>
+    <script src="js/deletarCliente.js"></script> 
+    
+</body>
+</html>

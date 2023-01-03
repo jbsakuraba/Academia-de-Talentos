@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Solicitação de serviços</h1>
+    </header>
+    
+    <div class="campoCPFNome">
+        <div>
+            <label for="CPF" class="dadoCliente">CPF do cliente:</label>            
+            <input type="text" id="inputCPF" maxlength="14">
+        </div>
+        <div>
+            <table class="tabelaCliente apaga">
+                <tbody>
+                    <tr class="dadoCliente">
+                        <td>Nome:</td>
+                        <td id="tdNome"></td>
+                    </tr>
+                    <tr  class="dadoCliente">                 
+                        <td>CPF:</td>
+                        <td id="tdCPF"></td>
+                    </tr>
+                </tbody>            
+            </table>
+        </div>        
+    </div>
+    <div id="msgEnter">Digite o CPF do cliente e tecle enter.</div>
+    
+    <div class="erro" id="erroCPF"></div>
+
+    <div class="seleciona apaga">
+        Serviço solicitado:
+        <select name="servico" id="servico">
+            <option value="cadastro">Cadastro</option>
+            <option value="análise">Análise</option>
+            <option value="liberação">Liberação</option>
+        </select>        
+    
+        Setor solicitante:
+        <select name="setor" id="setor">            
+            <option value="Cenop">Cenop</option>
+            <option value="Cesup">Cesup</option>
+            <option value="CRBB">CRBB</option>
+            <option value="CSA">CSA</option>
+            <option value="Rede Agências Atacado">Rede Agências Atacado</option>
+            <option value="Rede Agências Varejo">Rede Agências Varejo</option>
+            <option value="SAC">SAC</option>
+            <option value="Setor Público">Setor Público</option>
+        </select>
+        <input type="button" value="Solicitar" id="solicitar">
+    </div>
+
+    <div class="erro" id="erroHora"></div>
+    <div class="msg apaga" id="msg"></div>   
+    
+    <script src="js/principal.js"></script>
+    <script src="js/dadosCliente.js"></script>
+    <script src="js/formatoCPF.js"></script>  
+</body>
+</html>
+
+
+

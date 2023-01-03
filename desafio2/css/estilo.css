@@ -1,0 +1,123 @@
+header {
+	background: #fdfc30;
+	text-align: center;	
+	font-size: 40px;			
+	padding: 20px;
+    margin-bottom: 20px;	
+}
+
+body {
+	background-color: #e8e8f1;
+    font-family: sans-serif;
+    color: #455eff;
+}
+
+.nomedados {
+    display:inline-block;    
+    margin: 10px;    
+    font-size: 22px;    
+}
+
+.formdados {
+    background: #fdfc30;
+	border: 1px solid #455eff;
+  	border-radius: 5px;		
+	margin: 10px auto;
+	font-size: 18px;
+    color:#455eff;	
+	padding: 5px;
+    outline: 0;
+}
+
+.formdados:focus {
+    border: 4px solid #455eff;
+}
+
+.formulario, .tabela {
+    width: 550px;
+  	margin: auto;
+  	padding: 8px;    
+  	background-color: #d1d1e2;
+  	box-shadow: 3px 3px 10px #d1d1e2;
+	border: 1px solid #455eff;
+	border-radius: 5px;
+}
+
+#incluir {
+    background: #455eff;
+	color: #fdfc30;
+    border: 1px solid #455eff;
+	border-radius: 5px;
+}
+
+#incluir {    
+	font-size: 18px;	
+	padding: 5px;	
+    margin: 10px;
+}
+
+.msgerro {
+    color: red;    
+    font-size: 14px;
+}
+
+.erro {
+    border: 1px solid red;
+}
+
+.tabela {    
+    width: 900px;
+    text-align: center;    
+}
+
+th {
+    background-color: #fdfc30;    
+    padding: 8px;
+    font-size: 22px;	
+	padding: 5px;      
+}
+
+td {
+    font-size: 18px;
+    padding: 3px;   	  
+}
+
+.totalrenda {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;     
+}
+
+tfoot {
+    background-color: #455eff;
+    color: #fdfc30; 
+}
+
+.input-justif {
+    border: 1px solid #455eff;
+	border-radius: 5px;
+    font-size: 15px;        
+    padding: 3px;
+}
+
+.alerta {
+    margin: auto;
+    padding: 10px;    
+    text-align: center;
+    font-size: 18px;
+    color: red;    
+}
+
+.menorSalario {
+    background-color: lightcoral;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+span {
+    font-weight: bold;
+}
+

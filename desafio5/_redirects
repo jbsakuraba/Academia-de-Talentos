@@ -1,0 +1,5 @@
+/api-lista/* http://www.ksamochvalov.com/academia/listarClientes.php?matricula=F6002146:splat 200!
+
+/api-insere/* http://www.ksamochvalov.com/academia/inserirCliente.php:splat 200!
+
+/api-remove/* http://www.ksamochvalov.com/academia/removerCliente.php:splat 200!
